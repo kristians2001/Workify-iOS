@@ -45,10 +45,10 @@ struct ContentView: View {
                 Spacer()
             
             Form {
-                TextField(text: $name, prompt: Text("Meno")) {
+                TextField(text: $name, prompt: Text("Vaše meno")) {
                     Text("Name")
                 }
-                TextField(text: $surname, prompt: Text("Priezvisko")) {
+                TextField(text: $surname, prompt: Text("Vaše priezvisko")) {
                     Text("Surname")
                 }
             }
